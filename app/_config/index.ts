@@ -1,0 +1,1 @@
+export const domain = typeof window !== 'undefined' ? window.location.origin : '';

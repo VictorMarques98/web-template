@@ -8,7 +8,6 @@ module.exports = {
     "react-app",
     "react-app/jest",
     "plugin:storybook/recommended",
-    "plugin:tailwindcss/recommended",
   ],
   parserOptions: {
     babelOptions: {
@@ -16,7 +15,6 @@ module.exports = {
     },
   },
   rules: {
-    "tailwindcss/no-custom-classname": "off",
     "testing-library/prefer-screen-queries": "off",
     "@next/next/no-html-link-for-pages": "off",
     "@typescript-eslint/no-unused-vars": [
@@ -33,7 +31,6 @@ module.exports = {
         ignoreDeclarationSort: true,
       },
     ],
-    "tailwindcss/classnames-order": "off",
     "import/order": [
       1,
       {
