@@ -1,7 +1,11 @@
-export default function Home() {
+"use client"
+import { SignupForm, UserData } from "app/(features)/home/_components";
+
+export default function Page() {
   return (
     <section>
-      <h1>Home</h1>
+      <SignupForm />
+      <UserData />
     </section>
   )
 }

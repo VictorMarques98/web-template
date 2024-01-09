@@ -12,7 +12,7 @@ const config = withPlugins([[withBundleAnalyzer({ enabled: env.ANALYZE })]], {
     return [
       { source: "/", destination: "/home" }
     ]
-  },
+  }
 })
 
 export default config

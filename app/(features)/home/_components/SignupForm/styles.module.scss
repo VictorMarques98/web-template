@@ -1,0 +1,12 @@
+@use "/app/_styles/theme/main.scss" as *;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: $space-md;
+  padding: $space-xl;
+
+  & > * {
+    max-width: max-content;
+  }
+}

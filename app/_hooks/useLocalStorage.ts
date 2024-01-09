@@ -31,6 +31,8 @@ export const useLocalStorage = <T>(keyName: keyName) => {
   };
 
   const removeValue = () => {
+    if (typeof window === 'undefined') return;
+    
     try {
       setIsLoading(true);
       window.localStorage.removeItem(keyName);
